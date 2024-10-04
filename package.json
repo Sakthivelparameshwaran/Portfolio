@@ -13,3 +13,6 @@
     "astro": "^4.9.1"
   }
 }
+{
+  "packageManager": "pnpm@8.0.0"
+}
