@@ -1,0 +1,25 @@
+---
+// src/pages/index.astro
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<!-- Profile picture 2.webp you can remove | Photo <a href="https://unsplash.com/es/@charlesdeluvio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">charlesdeluvio</a> en <a href="https://unsplash.com/es/fotos/hombre-con-gorro-negro-kVg2DQTAK7c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+   -->
+
+<!-- You can replace the card's data with your own here. -->
+<BaseLayout title="Sakthi's Personal Card Portfolio" description="Meta description. Here goes your page description. Provide a clear and concise summary of the content.">
+	<Card
+	  name="Sakthivel"
+	  position="Webhosting Support Engineer"
+	  aboutMe={`As a Support Engineer with one year of experience, I have developed expertise in WHM, Linux, AWS, Git, Ansible, Jenkins, and WordPress. I also possess a solid foundation in web development, focusing on both front-end and back-end technologies.
+
+I’m passionate about creating user-centric designs and optimizing performance for seamless browsing experiences.
+Let’s collaborate!`}
+	  linkedin="https://linkedin.com/in/sakthivelparameshwaran/#"
+	  github="https://github.com/Sakthivelparameshwaran"
+	  cvLink="/files/sakthi-techresume.pdf"
+	  profileImage="/images/Profile picture 2.webp"
+	/>
+</BaseLayout>
